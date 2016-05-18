@@ -21,7 +21,7 @@ var SDL_Surface_ptr = ref.refType(sdl.SDL_Surface)
 var SDL_RWops_ptr = ref.refType(sdl.SDL_RWops)
 //var SDL_Texture_ptr = ref.refType(sdl.SDL_Texture)
 //var SDL_Renderer_ptr = ref.refType(sdl.SDL_Renderer)
-var TTF_Font_ptr = void_ptr
+var TTF_Font_ptr = 'pointer'
 
 // global define
 var SDL_TTF_MAJOR_VERSION = 2
